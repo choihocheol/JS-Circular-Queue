@@ -1,7 +1,7 @@
 class CircularQueue {
     constructor(N) {
         this.N = N;
-        this.elements = new Array(N);
+        this.elements = new Array();
         this.rear = -1;
         this.front = -1;
     }
